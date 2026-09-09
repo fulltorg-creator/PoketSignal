@@ -1,0 +1,1 @@
+name: Build PocketSignal APK, on: workflow_dispatch и push на main, jobs build на ubuntu-latest, шаги: checkout v4, setup java temurin 17, setup android v3, сборка через chmod +x gradlew и ./gradlew assembleDebug, после этого upload artifact из app/build/outputs/apk/debug/app-debug.apk
